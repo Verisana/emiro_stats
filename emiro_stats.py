@@ -115,8 +115,3 @@ class EMiroDataCollector:
             last_date = all_posts[-1]['date_added']
             print(f'Processed {len(all_posts)} posts article')
         return all_posts
-
-
-dc = EMiroDataCollector()
-dc.update_posts_file()
-print('all_done')
